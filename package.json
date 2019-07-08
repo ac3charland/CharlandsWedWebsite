@@ -9,9 +9,14 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "start-background": "if ! nc -z localhost 3000; then nohup npm start > /tmp/npm-start.log 2>&1 & sleep 5; fi",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "backstop-test": "sh backstop/run.sh test",
+    "backstop-report": "sh backstop/run.sh openReport",
+    "backstop-approve": "sh backstop/run.sh approve",
+    "backstop-reference": "backstop reference"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -35,6 +40,7 @@
   },
   "devDependencies": {
     "babel-jest": "^24.8.0",
+    "backstopjs": "^4.1.9",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
     "enzyme-to-json": "^3.3.5"
