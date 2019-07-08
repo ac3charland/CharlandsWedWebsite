@@ -11,6 +11,14 @@
 # production
 /build
 
+#Backstop
+backstop/*/images/test
+backstop/*/reports/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
 # misc
 .DS_Store
 .env.local
