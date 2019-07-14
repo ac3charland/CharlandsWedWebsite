@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "moment": "^2.24.0",
+    "node-sass": "^4.12.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
@@ -13,7 +15,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "backstop:test": "sh backstop/run.sh test",
+    "backstop:test": "npm run start-background; sh backstop/run.sh test",
     "backstop:report": "sh backstop/run.sh openReport",
     "backstop:approve": "sh backstop/run.sh approve",
     "backstop:reference": "backstop reference",
