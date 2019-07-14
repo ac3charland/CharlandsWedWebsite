@@ -1,0 +1,35 @@
+.countdown {
+    color: white;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    h2,
+    h3 {
+        margin: 0.3rem 0.2rem;
+        background-color: rgba(50, 50, 50, 0.77);
+        min-width: 5vw;
+    }
+
+    h2 {
+        font-size: 3rem;
+        padding: 1rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+}
+
+.countdown__flex {
+    display: flex;
+}
+
+.countdown__column {
+    display: flex;
+    flex-direction: column;
+}
+
