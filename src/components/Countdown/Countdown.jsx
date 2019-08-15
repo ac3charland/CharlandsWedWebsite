@@ -46,20 +46,20 @@ export default class Countdown extends Component {
             <div className='countdown'>
                 <div className='countdown__flex'>
                     <div className='countdown__column days'>
-                        <h2>{this.state.days}</h2>
-                        <h3>DAYS</h3>
+                        <h3>{this.state.days}</h3>
+                        <h4>DAYS</h4>
                     </div>
                     <div className='countdown__column days'>
-                        <h2>{this.state.hours}</h2>
-                        <h3>HOURS</h3>
+                        <h3>{this.state.hours}</h3>
+                        <h4>HOURS</h4>
                     </div>
                     <div className='countdown__column days'>
-                        <h2>{this.state.minutes}</h2>
-                        <h3>MINUTES</h3>
+                        <h3>{this.state.minutes}</h3>
+                        <h4>MINUTES</h4>
                     </div>
                     <div className='countdown__column days'>
-                        <h2>{this.state.seconds}</h2>
-                        <h3>SECONDS</h3>
+                        <h3>{this.state.seconds}</h3>
+                        <h4>SECONDS</h4>
                     </div>
                 </div>
             </div>

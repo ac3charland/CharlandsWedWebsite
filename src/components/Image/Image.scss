@@ -1,6 +1,17 @@
-.background-image {
-    width: 100vw;
-    height: 45vw;
+.landing {
+    &__container {
+        position: relative;
+        display: flex;
+        align-content: flex-end;
+    }
+
+    &__image {
+        object-fit: cover;
+        width: 100vw;
+        height: 45vw;
+        float: top;
+        max-height: 1000px;
+    }
 }
 
 .cutout {

@@ -1,13 +1,16 @@
 import React from 'react'
 import './Image.scss'
 import Countdown from '../Countdown/Countdown'
+import backgroundImage from '../../images/background3.jpg'
+
+const cb = 'landing'
 
 export default function Image(props) {
     return (
-        <div>
-            <img className='background-image' src='https://picsum.photos/id/767/1600/1000'/>
+        <div className={`${cb}__container`}>
+            <img className={`${cb}__image`} src={backgroundImage} alt='header-background'/>
             <Countdown/>
-            <div className='cutout'/>
+            <div className={`${cb}__cutout`}/>
         </div>
     )
 

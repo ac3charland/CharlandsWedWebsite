@@ -1,0 +1,30 @@
+.story {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    
+    &__flex {
+        display: flex;
+    }
+
+    &__text {
+        text-align: left;
+        padding-right: 3rem;
+    }
+
+    &__image-wrapper {
+        min-width: 30%;
+        max-height: 100%;
+        overflow: hidden;
+    }
+
+    &__image {
+        width: 100%;
+        height: auto;
+        max-height: 550px;
+        object-fit: cover;
+    }
+
+    p:first-child {
+        margin-top: 0;
+    }
+}
