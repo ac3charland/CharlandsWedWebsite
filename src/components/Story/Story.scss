@@ -1,6 +1,10 @@
 .story {
     margin: 2rem 0;
     padding: 1.5rem;
+
+    h2 {
+        margin-bottom: 3rem;
+    }
     
     &__flex {
         display: flex;
