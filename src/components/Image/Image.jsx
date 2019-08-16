@@ -1,7 +1,7 @@
 import React from 'react'
 import './Image.scss'
 import Countdown from '../Countdown/Countdown'
-import backgroundImage from '../../images/background3.jpg'
+import backgroundImage from '../../images/background1.jpg'
 
 const cb = 'landing'
 
