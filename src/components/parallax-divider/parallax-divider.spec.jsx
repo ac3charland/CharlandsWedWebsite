@@ -1,13 +1,15 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import PlacesToStay from './PlacesToStay'
+import ParallaxDivider from './parallax-divider'
 
 const cb = 'places-to-stay'
 
-describe('PlacesToStay', () => {
+describe('ParallaxDivider', () => {
+
+    let props
 
     it('renders without crashing', () => {
-        const component = shallow(<PlacesToStay />)
+        const component = shallow(<ParallaxDivider {...props} />)
         expect(component.find(`.${cb}`).length).toEqual(1)
     })
 

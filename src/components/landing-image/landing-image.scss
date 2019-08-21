@@ -1,0 +1,82 @@
+.section {
+  /* Needed for children to be absolutely positioned relative to the parent. */
+  position: relative;
+  /* The height of the container. Must be set, but it doesn't really matter what the value is. */
+  height: 50vh;
+  width: 100%;
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.large {
+  height: 95vh;
+}
+
+.parallax::after {
+  /* Display and position the pseudo-element */
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  /* Move the pseudo-element back away from the camera,
+   * then scale it back up to fill the viewport.
+   * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
+  transform: translateZ(-1px) scale(1.9);
+  /* Force the background image to fill the whole element. */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* Keep the image from overlapping sibling elements. */
+  z-index: -1;
+}
+
+/* Sets the actual background images to adorable kitties. This part is crucial. */
+.bg1::after {
+  background-image: url("../../images/background1.jpg");
+}
+
+.bg2::after {
+  background-image: url("../../images/background2.jpg");
+}
+
+.bg3::after {
+  background-image: url("../../images/background3.jpg");
+}
+
+.cutout {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  height: 5rem;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  overflow: hidden;
+}
+
+.cutout::before {
+  content: "";
+  position: absolute;
+  left: -145px;
+  width: 50%;
+  height: 53px;
+  top: 0;
+  background-color: #fff;
+  -webkit-transform: skew(-80deg);
+  transform: skew(-80deg);
+}
+.cutout::after {
+  content: "";
+  position: absolute;
+  right: -145px;
+  width: 50%;
+  height: 53px;
+  top: 0;
+  background-color: #fff;
+  -webkit-transform: skew(80deg);
+  transform: skew(80deg);
+}
