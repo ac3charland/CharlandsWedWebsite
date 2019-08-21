@@ -1,0 +1,33 @@
+.cutout {
+  width: 100%;
+  position: absolute;
+  bottom: 2px;
+  height: 5rem;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  overflow: hidden;
+}
+
+.cutout::before {
+  content: "";
+  position: absolute;
+  left: -145px;
+  width: 50%;
+  height: 53px;
+  top: 0;
+  background-color: #fff;
+  -webkit-transform: skew(-80deg);
+  transform: skew(-80deg);
+}
+
+.cutout::after {
+  content: "";
+  position: absolute;
+  right: -145px;
+  width: 50%;
+  height: 53px;
+  top: 0;
+  background-color: #fff;
+  -webkit-transform: skew(80deg);
+  transform: skew(80deg);
+}

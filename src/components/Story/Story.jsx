@@ -1,6 +1,6 @@
 import './Story.scss'
 import React from 'react'
-import image from '../../images/story0.jpg'
+import image from '../../images/story1.jpg'
 import Fade from 'react-reveal/Fade';
 
 const cb = 'story'
