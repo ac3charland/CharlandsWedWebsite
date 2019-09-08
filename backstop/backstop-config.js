@@ -11,6 +11,9 @@ module.exports = backstop.config({
         height: 768
     }],
     scenarios: [
-        cs({label: 'start-page'})
+        cs({label: 'start-page'}),
+        cs({label: 'basic-info', selectors: ['.basic-info']}),
+        cs({label: 'story', selectors: ['#story']}),
+        cs({label: 'places-to-stay', selectors: ['#places']}),
     ]
 })

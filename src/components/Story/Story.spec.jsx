@@ -13,7 +13,7 @@ describe('Story', () => {
 
     it('has correct image src and alt text', () => {
         const component = shallow(<Story />)
-        expect(component.find(`.${cb}__image`).prop('src')).toEqual('story0.jpg')
+        expect(component.find(`.${cb}__image`).prop('src')).toEqual('story1.jpg')
         expect(component.find(`.${cb}__image`).prop('alt')).toEqual('alex-and-emily-by-ferris-wheel')
     })
 })

@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.scss';
-import Header from './components/Header/Header'
+import Header from './components/header/header'
 import Story from './components/Story/Story'
 import PlacesToStay from './components/PlacesToStay/PlacesToStay';
 import BasicInfo from './components/basic-info/basic-info';
@@ -14,11 +14,11 @@ function App() {
     <div className="App">
       <Header/>
       <LandingImage/>
-      <BasicInfo />
+      <BasicInfo/>
       <ParallaxDivider image='bg4' />
-      <Story />
+      <Story/>
       <ParallaxDivider image='bg3' />
-      <PlacesToStay />
+      <PlacesToStay/>
     </div>
   );
 }
