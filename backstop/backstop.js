@@ -14,7 +14,7 @@ const baseScenario = {
     selectorExpansion: true,
     selectors: ['document'],
     misMatchThreshold: 0,
-    delay: 3000
+    delay: 1000
 }
 
 const config = overrides => {

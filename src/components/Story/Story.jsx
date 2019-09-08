@@ -7,7 +7,7 @@ const cb = 'story'
 
 export default function Story(props) {
     return (
-        <div className={cb}>
+        <div id='story' className={cb}>
             <Fade bottom>
                 <h2>Our Story</h2>
             </Fade>

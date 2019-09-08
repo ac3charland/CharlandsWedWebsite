@@ -7,7 +7,7 @@ const cb = 'places-to-stay'
 
 export default function PlacesToStay(props) {
     return (
-        <div className={cb}>
+        <div id='places' className={cb}>
             <Fade bottom>
                 <h2>Places to Stay</h2>
             </Fade>
