@@ -1,3 +1,5 @@
+@import "../../main.scss";
+
 .header {
   display: flex;
   position: absolute;
@@ -14,41 +16,15 @@
   }
 
   &__link-wrapper {
-      margin: 1rem 2rem 0;
+    margin: 1rem 2rem 0;
   }
 
   a {
-    position: relative;
+    @include animateUnderline();
+
     padding-bottom: 0.5rem;
     font-size: 1.5rem;
     font-family: "Playfair Display";
-    color: #000;
-    text-decoration: none;
-
-    &:hover {
-      color: #000;
-
-      &:before {
-        visibility: visible;
-        -webkit-transform: scaleX(1);
-        transform: scaleX(1);
-      }
-    }
-
-    &:before {
-      content: "";
-      position: absolute;
-      width: 100%;
-      height: 2px;
-      bottom: 0;
-      left: 0;
-      background-color: #000;
-      visibility: hidden;
-      -webkit-transform: scaleX(0);
-      transform: scaleX(0);
-      -webkit-transition: all 0.3s ease-in-out 0s;
-      transition: all 0.3s ease-in-out 0s;
-    }
   }
 
   &__links {

@@ -15,5 +15,6 @@ module.exports = backstop.config({
         cs({label: 'basic-info', selectors: ['.basic-info']}),
         cs({label: 'story', selectors: ['#story']}),
         cs({label: 'places-to-stay', selectors: ['#places']}),
+        cs({label: 'things-to-do', selectors: ['#things']}),
     ]
 })

@@ -1,0 +1,61 @@
+@import '../../main.scss';
+
+.places-to-stay {
+  padding: 2rem 1.5rem;
+  background-color: $background-white;
+
+  h2 {
+    margin-bottom: 3rem;
+  }
+
+  &__flex {
+    display: flex;
+  }
+
+  &__text {
+    text-align: left;
+    padding-left: 3rem;
+  }
+
+  &__image-wrapper {
+    min-width: 30%;
+  }
+
+  &__image {
+    width: 100%;
+    height: auto;
+  }
+
+  &__image-caption {
+    padding-top: 1rem;
+  }
+
+  &__emphasized {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 1rem 2rem;
+    margin: 2rem 1rem;
+  }
+
+  p:first-child {
+    margin-top: 0;
+  }
+
+  a {
+    @include inverseAnimateUnderline();
+  }
+
+  &__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      padding-top: 1.5rem;
+
+      &:first-child {
+        padding-top: 0.5rem;
+      }
+    }
+  }
+}

@@ -1,7 +1,7 @@
-import './Story.scss'
+import './story.scss'
 import React from 'react'
 import image from '../../images/story1.jpg'
-import Fade from 'react-reveal/Fade';
+import Fade from 'react-reveal';
 
 const cb = 'story'
 
@@ -14,16 +14,13 @@ export default function Story(props) {
             <div className={`${cb}__flex`}>
                 <Fade bottom cascade>
                     <div className={`${cb}__text`}>
-                        <p>Lorem ipsum dolor amet gochujang flannel selfies beard distillery meditation drinking vinegar. Intelligentsia man braid mumblecore activated charcoal portland ethical, bespoke blue bottle quinoa banh mi narwhal cray. Coloring book aesthetic semiotics, forage umami kogi truffaut biodiesel tacos blog next level XOXO hashtag. Art party kogi try-hard 90's authentic. Actually yuccie aesthetic blue bottle forage pabst occupy tattooed poke glossier echo park.</p>
-                        <p>Selvage actually bicycle rights vexillologist. Four loko green juice dreamcatcher crucifix +1, tbh offal. Kitsch butcher meh occupy taxidermy crucifix aesthetic tumeric cornhole flexitarian. Ennui hella tumeric flannel, tumblr pok pok glossier retro polaroid. Letterpress tumeric paleo lumbersexual XOXO. Meh trust fund vice fashion axe occupy.</p>
-                        <p>Shoreditch cronut selfies, pok pok hot chicken four dollar toast vinyl kombucha pop-up. Bicycle rights etsy retro, PBR&B venmo cred tacos kombucha post-ironic typewriter distillery iceland. Cloud bread keffiyeh keytar small batch, YOLO prism next level leggings iPhone. Ugh lyft asymmetrical freegan franzen godard coloring book man bun 3 wolf moon post-ironic man braid 90's. Microdosing humblebrag chillwave adaptogen fixie schlitz ennui marfa. Fashion axe pitchfork beard butcher, deep v coloring book freegan microdosing bitters raw denim literally etsy fam.</p>
-                        <p>Pork belly viral you probably haven't heard of them organic, taiyaki DIY af affogato banh mi. Cred next level tbh typewriter blue bottle man braid crucifix la croix narwhal organic, you probably haven't heard of them pug gluten-free pinterest pabst. IPhone viral asymmetrical, snackwave slow-carb bespoke bushwick. Venmo jean shorts try-hard shoreditch, poke vexillologist iceland bitters celiac.</p>
-                        <p>Leggings succulents cardigan, sartorial taxidermy cloud bread jean shorts gluten-free knausgaard humblebrag pabst hella tousled hot chicken copper mug. Raw denim trust fund cloud bread tattooed enamel pin photo booth. Tousled stumptown neutra celiac helvetica freegan. Lomo fanny pack fingerstache semiotics flannel pug. Thundercats deep v tofu, four dollar toast mixtape bicycle rights 3 wolf moon bushwick paleo. Lomo heirloom sartorial mixtape af, celiac austin viral mustache bitters. Kombucha fingerstache tacos godard fashion axe iceland, man bun readymade synth authentic gastropub art party meditation pabst.</p>
+                        <p>Emily and Alex met at the School of Music at the University of Wisconsin - Madison, in fall of 2012. At the time, Alex was a Clarinet Performance major, and Emily a Music Education major in the clarinet studio. The two got to know each other musically and personally, as Emily slowly discovered Alex’s background in composing and Jazz, and Alex discovered Emily’s passion to teach. Their initial hangouts that fall included creating playlists for each other, in which they’d trade their favorite jazz (Alex) and classical (Emily) tracks. It didn’t take long before, on December 14th, Alex had Emily listen to two final tracks: “Misty” by Ella Fitzgerald, and “Just Kiss Me” by Harry Conick, Jr. The rest, as they say, was history.</p>
+                        <p>Emily and Alex continued to listen to music together, and as the years went on, Alex began a collection of compositions, one for every year of his and Emily’s relationship together. On December 14th of each year, he’d play the recording of his anniversary composition. In January of 2018, Alex began a year-long project, in which he reworked each of these compositions, and along with help from several of his and Emily’s friends and family, compiled these pieces into the ultimate musical love letter. The album, All of Me to You, was released on the couple’s 6 year anniversary - December 14, 2018. That night, Alex played the album for Emily in their home, and proposed during his track, Alex’s Interlude.</p>
                     </div>
                 </Fade>
                 <Fade>
                     <div className={`${cb}__image-wrapper`}>
-                        <img className={`${cb}__image`} src={image} alt='alex-and-emily-by-ferris-wheel' />
+                        <img className={`${cb}__image`} src={image} alt='Caterpillar and engagement ring resting on flower' />
                     </div>
                 </Fade>
             </div>
