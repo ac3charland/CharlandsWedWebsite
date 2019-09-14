@@ -2,10 +2,11 @@ import './landing-image.scss'
 import React from 'react'
 import Countdown from '../Countdown/Countdown'
 
+const cb = 'landing'
 
 export const LandingImage = props => (
-    <section class={`section parallax bg1 large`}>
+    <section class={`${cb}__section ${cb}__parallax`}>
         <Countdown />
-        <div className={'cutout'}/>
+        <div className={`${cb}__cutout`}/>
     </section>
 )

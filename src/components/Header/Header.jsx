@@ -12,6 +12,7 @@ export default class Header extends Component {
                 <div className={`${cb}__links`}>
                     <div className={`${cb}__link-wrapper`}><a href={noHref} onClick={() => scrollToElement('#story')}>Our Story</a></div>
                     <div className={`${cb}__link-wrapper`}><a href={noHref} onClick={() => scrollToElement('#places')}>Places to Stay</a></div>
+                    <div className={`${cb}__link-wrapper`}><a href={noHref} onClick={() => scrollToElement('#things')}>Things to Do</a></div>
                 </div>
             </div>
         )

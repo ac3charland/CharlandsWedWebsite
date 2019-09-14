@@ -1,6 +1,8 @@
+@import "../../main.scss";
+
 .story {
     padding: 2rem 1.5rem;
-    background-color: #FFFFFC;
+    background-color: $background-white;
 
 
     h2 {
