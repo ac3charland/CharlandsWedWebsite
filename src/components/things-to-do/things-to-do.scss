@@ -1,4 +1,4 @@
-@import '../../main.scss';
+@import "../../main.scss";
 
 .things-to-do {
   padding: 2rem 1.5rem;
@@ -10,11 +10,19 @@
 
   &__flex {
     display: flex;
+
+    @media screen and (max-width: $small-view-cutoff) {
+      flex-direction: column-reverse;
+    }
   }
 
   &__text {
     text-align: left;
     padding-right: 3rem;
+
+    @media screen and (max-width: $small-view-cutoff) {
+      padding: 0;
+    }
   }
 
   &__image-wrapper {

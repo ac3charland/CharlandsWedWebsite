@@ -8,6 +8,7 @@ import { ParallaxDivider } from './components/parallax-divider/parallax-divider'
 import { LandingImage } from './components/landing-image/landing-image';
 import { FAQ } from './components/faq/faq';
 import ThingsToDo from './components/things-to-do/things-to-do';
+import Footer from './components/footer/footer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <PlacesToStay/>
       <ParallaxDivider image='bg3' />
       <ThingsToDo/>
+      <Footer/>
     </div>
   );
 }
