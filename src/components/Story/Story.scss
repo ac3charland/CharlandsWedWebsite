@@ -11,11 +11,19 @@
     
     &__flex {
         display: flex;
+
+        @media screen and (max-width: $small-view-cutoff) {
+            flex-direction: column-reverse;
+        }
     }
 
     &__text {
         text-align: left;
         padding-right: 3rem;
+
+        @media screen and (max-width: $small-view-cutoff) {
+            padding: 3rem 0 0;  
+        }
     }
 
     &__image-wrapper {
@@ -29,6 +37,11 @@
         height: auto;
         max-height: 550px;
         object-fit: cover;
+
+        @media screen and (max-width: $small-view-cutoff) {
+            height: 15rem;
+            
+        }
     }
 
     p:first-child {
