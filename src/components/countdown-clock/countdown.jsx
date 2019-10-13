@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import './Countdown.scss'
+import './countdown.scss'
 import moment from 'moment'
 
 export default class Countdown extends Component {

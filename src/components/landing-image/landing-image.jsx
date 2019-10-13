@@ -1,6 +1,6 @@
 import './landing-image.scss'
 import React from 'react'
-import Countdown from '../Countdown/Countdown'
+import Countdown from '../countdown-clock/countdown'
 
 const cb = 'landing'
 
