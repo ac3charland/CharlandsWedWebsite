@@ -13,7 +13,7 @@ describe('Story', () => {
 
     it('has correct image src and alt text', () => {
         const component = shallow(<Story />)
-        expect(component.find(`.${cb}__image`).prop('src')).toEqual('story1.jpg')
+        expect(component.find(`.${cb}__image`).prop('src')).toEqual('https://drive.google.com/uc?id=1wANaHlWHhLu0CMNDUYN3o4hSAAk0Yaw6')
         expect(component.find(`.${cb}__image`).prop('alt')).toEqual('Caterpillar and engagement ring resting on flower')
     })
 })

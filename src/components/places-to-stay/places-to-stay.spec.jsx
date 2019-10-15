@@ -11,7 +11,7 @@ describe('PlacesToStay', () => {
     it('renders without crashing', () => {
         const component = shallow(<PlacesToStay {...props} />)
         expect(component.find(`.${cb}`).length).toEqual(1)
-        expect(component.find(`.${cb}__image`).prop('src')).toEqual('places-to-stay0.jpg')
+        expect(component.find(`.${cb}__image`).prop('src')).toEqual('https://drive.google.com/uc?id=15TtgfGHBq3usLNsfmVmYwH9mEQSoTokN')
         expect(component.find(`.${cb}__image`).prop('alt')).toEqual('')
         expect(component.find(`.${cb}__list a`).at(0).prop('href')).toEqual('https://www.marriott.com/hotels/travel/grbak-hotel-northland-autograph-collection/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2')
         expect(component.find(`.${cb}__list a`).at(1).prop('href')).toEqual('https://hamptoninn3.hilton.com/en/hotels/wisconsin/hampton-inn-green-bay-downtown-GRBHXHX/index.html?SEO_id=GMB-HP-GRBHXHX')
