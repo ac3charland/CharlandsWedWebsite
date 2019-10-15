@@ -1,3 +1,5 @@
+@import "../../main.scss";
+
 .landing {
   &__section {
     /* Needed for children to be absolutely positioned relative to the parent. */
@@ -30,7 +32,7 @@
     background-repeat: no-repeat;
     /* Keep the image from overlapping sibling elements. */
     z-index: -2;
-    background-image: url("../../images/background1.jpg");
+    background-image: $background-image-1;
   }
 
   &__cutout {
