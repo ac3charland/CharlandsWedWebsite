@@ -1,3 +1,5 @@
+@import "../../main.scss";
+
 .divider {
   &__section {
     /* Needed for children to be absolutely positioned relative to the parent. */
@@ -37,21 +39,21 @@
 
 /* Sets the actual background images to adorable kitties. This part is crucial. */
 .bg1::after {
-  background-image: url("../../images/background1.jpg");
+  background-image: $background-image-1;
 }
 
 .bg2::after {
-  background-image: url("../../images/background2.jpg");
+  background-image: $background-image-2;
 }
 
 .bg3::after {
-  background-image: url("../../images/background3.jpg");
+  background-image: $background-image-3;
 }
 
 .bg4::after {
-  background-image: url("../../images/background4.jpg");
+  background-image: $background-image-4;
 }
 
 .bg5::after {
-  background-image: url("../../images/background5.jpg");
+  background-image: $background-image-5;
 }
