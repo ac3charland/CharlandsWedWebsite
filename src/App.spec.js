@@ -2,10 +2,10 @@ import React from 'react'
 import { shallow } from 'enzyme'
 import ReactDOM from 'react-dom'
 import App from './App'
-import Header from './components/header/header';
+import Header from './components/sticky-header/header';
 import { LandingImage } from './components/landing-image/landing-image';
 import BasicInfo from './components/basic-info/basic-info';
-import Story from './components/story/story';
+import Story from './components/our-story/story';
 import { ParallaxDivider } from './components/parallax-divider/parallax-divider';
 import PlacesToStay from './components/places-to-stay/places-to-stay';
 import ThingsToDo from './components/things-to-do/things-to-do';

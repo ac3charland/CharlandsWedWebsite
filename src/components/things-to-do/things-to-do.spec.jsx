@@ -11,7 +11,7 @@ describe('ThingsToDo', () => {
     it('renders without crashing', () => {
         const component = shallow(<ThingsToDo {...props} />)
         expect(component.find(`.${cb}`).length).toEqual(1)
-        expect(component.find(`.${cb}__image`).prop('src')).toEqual('things0.jpg')
+        expect(component.find(`.${cb}__image`).prop('src')).toEqual('https://drive.google.com/uc?id=19efL4uFUz9D9-CIrq45P9c8NMK2RhCQ3')
         expect(component.find(`.${cb}__image`).prop('alt')).toEqual('')
         expect(component.find(`.${cb}__list a`).at(0).prop('href')).toEqual('https://www.packers.com/lambeau-field/')
         expect(component.find(`.${cb}__list a`).at(1).prop('href')).toEqual('https://www.packers.com/lambeau-field/')
