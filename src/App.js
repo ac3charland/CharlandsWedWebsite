@@ -9,6 +9,7 @@ import { LandingImage } from './components/landing-image/landing-image';
 import { FAQ } from './components/faq/faq';
 import ThingsToDo from './components/things-to-do/things-to-do';
 import Footer from './components/footer/footer';
+import Registry from './components/registry/registry';
 
 function App() {
   return (
@@ -17,10 +18,12 @@ function App() {
       <LandingImage/>
       <BasicInfo/>
       <ParallaxDivider image='bg5' />
-      <Story/>
+      <Registry/>
       <ParallaxDivider image='bg4' />
-      <PlacesToStay/>
+      <Story/>
       <ParallaxDivider image='bg3' />
+      <PlacesToStay/>
+      <ParallaxDivider image='bg2' />
       <ThingsToDo/>
       <Footer/>
     </div>

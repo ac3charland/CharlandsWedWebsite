@@ -13,6 +13,7 @@ module.exports = backstop.config({
     scenarios: [
         cs({label: 'start-page'}),
         cs({label: 'basic-info', selectors: ['.basic-info']}),
+        cs({label: 'registry', selectors: ['#registry']}),
         cs({label: 'story', selectors: ['#story']}),
         cs({label: 'places-to-stay', selectors: ['#places']}),
         cs({label: 'things-to-do', selectors: ['#things']}),

@@ -30,6 +30,7 @@ export default class Header extends Component {
                 <h1>Charlands Wed</h1>
                 <div className={`${cb}__links ${menuCSS}`}>
                     <a href="javascript:void(0);" className={`icon ${menuCSS}`} onClick={() => this.toggleMenu()}><i className={`fa ${menuIcon}`}></i></a>
+                    <div className={`${cb}__link-wrapper ${menuCSS}`}><a className={`${cb}__underline`} href={noHref} onClick={() => scrollToElement('#registry')}>Registry</a></div>
                     <div className={`${cb}__link-wrapper ${menuCSS}`}><a className={`${cb}__underline`} href={noHref} onClick={() => scrollToElement('#story')}>Our Story</a></div>
                     <div className={`${cb}__link-wrapper ${menuCSS}`}><a className={`${cb}__underline`} href={noHref} onClick={() => scrollToElement('#places')}>Places to Stay</a></div>
                     <div className={`${cb}__link-wrapper ${menuCSS}`}><a className={`${cb}__underline`} href={noHref} onClick={() => scrollToElement('#things')}>Things to Do</a></div>
