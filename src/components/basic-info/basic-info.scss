@@ -1,14 +1,14 @@
 @import "../../main.scss";
 
 .basic-info {
-    background-color: $background-white;
-    padding: 4rem 1rem;
+  background-color: $background-white;
+  padding: 4rem 1rem;
 
-    &__info-group {
-        padding: 1.5rem 0;
+  &__info-group {
+    padding: 1.5rem 0;
 
-        @media screen and (max-width: $small-view-cutoff) {
-        padding: 0.5rem 0;
+    @media screen and (max-width: $small-view-cutoff) {
+      padding: 0.5rem 0;
     }
-    }
+  }
 }

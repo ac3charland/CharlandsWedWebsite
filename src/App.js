@@ -9,12 +9,14 @@ import { LandingImage } from './components/landing-image/landing-image';
 import { FAQ } from './components/faq/faq';
 import ThingsToDo from './components/things-to-do/things-to-do';
 import Footer from './components/footer/footer';
+import Disclaimer from './components/disclaimer/disclaimer';
 
 function App() {
   return (
     <div className="App">
       <Header/>
       <LandingImage/>
+      <Disclaimer/>
       <BasicInfo/>
       <ParallaxDivider image='bg5' />
       <Story/>
