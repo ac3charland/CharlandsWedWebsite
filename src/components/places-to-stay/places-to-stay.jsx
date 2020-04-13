@@ -25,7 +25,7 @@ export default function PlacesToStay(props) {
                 <div className={`${cb}__text`}>
                     <Fade bottom>
                         <p>There are a number of hotel options near the venue to fit a variety of budgets, including the wedding venue.</p>
-                        <p className={`${cb}__emphasized`}><strong>Note: We recommend you book early!</strong> There is a convention during the wedding weekend at the KI Convention Center in Downtown Green Bay which will reduce the availability of rooms.</p>
+                        {/* <p className={`${cb}__emphasized`}><strong>Note: We recommend you book early!</strong> There is a convention during the wedding weekend at the KI Convention Center in Downtown Green Bay which will reduce the availability of rooms.</p> */}
                         <p>Some options include:</p>
                     </Fade>
                     <Fade bottom cascade>
