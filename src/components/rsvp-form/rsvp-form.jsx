@@ -8,7 +8,7 @@ export default class RSVPForm extends Component {
     render() {
 
         return (
-            <div className={cb}>
+            <div className={cb} id='rsvp'>
                 <div className={`${cb}__heading`}>
                     <h2>R. S. V. P.</h2>
                 </div>
