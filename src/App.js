@@ -10,6 +10,7 @@ import { FAQ } from './components/faq/faq';
 import ThingsToDo from './components/things-to-do/things-to-do';
 import Footer from './components/footer/footer';
 import Disclaimer from './components/disclaimer/disclaimer';
+import RSVPForm from './components/rsvp-form/rsvp-form';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       <Disclaimer/>
       <BasicInfo/>
       <ParallaxDivider image='bg5' />
-      <Story/>
+      {/* <Story/> */}
+      <RSVPForm/>
       <ParallaxDivider image='bg4' />
       <PlacesToStay/>
       <ParallaxDivider image='bg3' />
