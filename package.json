@@ -18,7 +18,7 @@
     "start": "react-scripts start",
     "start-background": "if ! nc -z localhost 3000; then nohup npm start > /tmp/npm-start.log 2>&1 & sleep 5; fi",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --watchAll=false",
     "eject": "react-scripts eject",
     "backstop:test": "npm run start-background; sh backstop/run.sh test",
     "backstop:report": "sh backstop/run.sh openReport",

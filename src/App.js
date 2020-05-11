@@ -9,6 +9,7 @@ import { LandingImage } from './components/landing-image/landing-image';
 import { FAQ } from './components/faq/faq';
 import ThingsToDo from './components/things-to-do/things-to-do';
 import Footer from './components/footer/footer';
+import Registry from './components/registry/registry';
 import Disclaimer from './components/disclaimer/disclaimer';
 import RSVPForm from './components/rsvp-form/rsvp-form';
 
@@ -20,11 +21,14 @@ function App() {
       <Disclaimer/>
       <BasicInfo/>
       <ParallaxDivider image='bg5' />
-      {/* <Story/> */}
       <RSVPForm/>
       <ParallaxDivider image='bg4' />
-      <PlacesToStay/>
+      <Registry/>
       <ParallaxDivider image='bg3' />
+      <Story/>
+      <ParallaxDivider image='bg2' />
+      <PlacesToStay/>
+      <ParallaxDivider image='bg1' />
       <ThingsToDo/>
       <Footer/>
     </div>
