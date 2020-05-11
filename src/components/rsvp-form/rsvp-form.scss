@@ -1,0 +1,47 @@
+@import "../../main.scss";
+
+.rsvp-form {
+  background-color: $background-white;
+  padding: 2rem 1.5rem;
+  min-height: 22rem;
+
+  &__form-wrapper {
+      width: 300px;
+      margin: 0 auto;
+  }
+
+  &__checkboxes {
+      margin-top: 2rem;
+      border: 1px solid lightgray;
+      border-radius: 4px;
+  }
+
+  &__checkbox-wrapper {
+      display: inline-flex;
+      flex-direction: column;
+      justify-content: left;
+  }
+
+  &__checkbox {
+      text-align: left;
+  }
+
+  &__checkbox-label {
+      padding-left: 0.3rem;
+  }
+
+  &__submit {
+    font-family: "Playfair Display", -apple-system;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    margin-top: 2rem;
+    transition: background-color 0.2s;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #ccc;
+    }
+  }
+}
