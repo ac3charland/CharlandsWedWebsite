@@ -4,7 +4,7 @@ import moment from 'moment'
 
 export default class Countdown extends Component {
 
-    weddingDate = moment('2020-06-06 15:00:00')
+    weddingDate = moment('2020-09-05 15:00:00')
 
     constructor(props) {
         super(props)
