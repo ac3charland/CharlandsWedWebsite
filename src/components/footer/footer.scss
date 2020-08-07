@@ -3,10 +3,13 @@
 .footer {
     padding: 0 1rem;
     margin-top: 1rem;
-    
+
     &__footer-text {
         padding: 1rem 0.5rem;
         border-top: 1px solid black;
+    }
 
+    a {
+        @include inverseAnimateUnderline();
     }
 }
