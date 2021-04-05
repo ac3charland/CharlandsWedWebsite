@@ -6,7 +6,7 @@ const cb = 'landing'
 
 export const LandingImage = props => (
     <section className={`${cb}__section ${cb}__parallax`}>
-        {/* <Countdown /> */}
+        <Countdown />
         <div className={`${cb}__cutout`}/>
     </section>
 )

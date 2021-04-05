@@ -10,14 +10,12 @@ import { FAQ } from './components/faq/faq';
 import ThingsToDo from './components/things-to-do/things-to-do';
 import Footer from './components/footer/footer';
 import Registry from './components/registry/registry';
-import Disclaimer from './components/disclaimer/disclaimer';
 
 function App() {
   return (
     <div className="App">
       <Header/>
       <LandingImage/>
-      <Disclaimer/>
       <BasicInfo/>
       <ParallaxDivider image='bg5' />
       <Registry/>
