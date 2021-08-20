@@ -18,7 +18,7 @@ export default function BasicInfo(props) {
             </Fade>
             <Fade bottom cascade>
                 <div className={`${cb}__info-group`}>
-                    <h3>On September 5th, 2020</h3>
+                    <h3>Saturday, October 30th, 2021</h3>
                     <h4>At 3:00 PM</h4>
                 </div>
             </Fade>

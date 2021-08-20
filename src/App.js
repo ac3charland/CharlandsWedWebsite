@@ -10,7 +10,6 @@ import { FAQ } from './components/faq/faq';
 import ThingsToDo from './components/things-to-do/things-to-do';
 import Footer from './components/footer/footer';
 import Registry from './components/registry/registry';
-import Disclaimer from './components/disclaimer/disclaimer';
 import RSVPForm from './components/rsvp-form/rsvp-form';
 
 function App() {
@@ -18,7 +17,6 @@ function App() {
     <div className="App">
       <Header/>
       <LandingImage/>
-      <Disclaimer/>
       <BasicInfo/>
       <ParallaxDivider image='bg5' />
       <RSVPForm/>
