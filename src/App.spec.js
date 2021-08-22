@@ -18,7 +18,7 @@ it('renders without crashing', () => {
   expect(component.find(Story).length).toEqual(1)
   expect(component.find(PlacesToStay).length).toEqual(1)
   expect(component.find(ThingsToDo).length).toEqual(1)
-  expect(component.find(ParallaxDivider).length).toEqual(4)
+  expect(component.find(ParallaxDivider).length).toEqual(5)
   expect(component.find(ParallaxDivider).at(0).prop('image')).toEqual('bg5')
   expect(component.find(ParallaxDivider).at(1).prop('image')).toEqual('bg4')
   expect(component.find(ParallaxDivider).at(2).prop('image')).toEqual('bg3')

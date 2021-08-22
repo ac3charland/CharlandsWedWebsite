@@ -1,0 +1,22 @@
+@import "../../main.scss";
+
+.rsvp-form {
+  background-color: $background-white;
+  padding: 2rem 1.5rem;
+  min-height: 22rem;
+
+  &__form-wrapper {
+    width: 50%;
+    height: 32rem;
+    margin: 0 auto;
+
+    @media screen and (max-width: $small-view-cutoff) {
+      width: 100%;
+    }
+
+    iframe {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}

@@ -25,7 +25,9 @@ export default function BasicInfo(props) {
             <Fade bottom cascade>
                 <div className={`${cb}__info-group`}>
                     <h3>Dinner & reception to follow at Hotel Northland</h3>
-                    <h4>Musicians are encouraged to bring their instruments and voices to the jam session at the reception</h4>
+                    <h3 className={`${cb}__welcome-heading`}>Welcome Party & COSTUME PARTY!</h3>
+                    <h4>Friday, October 29, 2021 &nbsp; - &nbsp; The Alley at Hotel Northland</h4>
+                    <h4>It's Halloween weekend! Wear your best costume and join the Bride, Groom and their families for some drinks, games, and toasts.</h4>
                 </div>
             </Fade>
         </div>

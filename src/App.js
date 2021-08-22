@@ -10,6 +10,7 @@ import { FAQ } from './components/faq/faq';
 import ThingsToDo from './components/things-to-do/things-to-do';
 import Footer from './components/footer/footer';
 import Registry from './components/registry/registry';
+import RSVPForm from './components/rsvp-form/rsvp-form';
 
 function App() {
   return (
@@ -18,12 +19,14 @@ function App() {
       <LandingImage/>
       <BasicInfo/>
       <ParallaxDivider image='bg5' />
-      <Registry/>
+      <RSVPForm/>
       <ParallaxDivider image='bg4' />
-      <Story/>
+      <Registry/>
       <ParallaxDivider image='bg3' />
-      <PlacesToStay/>
+      <Story/>
       <ParallaxDivider image='bg2' />
+      <PlacesToStay/>
+      <ParallaxDivider image='bg1' />
       <ThingsToDo/>
       <Footer/>
     </div>
