@@ -1,7 +1,6 @@
 import './things-to-do.scss'
 import React from 'react'
 import Fade from 'react-reveal/Fade'
-import {things0} from '../../utils/constants'
 
 const cb = 'things-to-do'
 
@@ -26,7 +25,7 @@ export default function ThingsToDo(props) {
                 <Fade>
                     <div>
                         <div className={`${cb}__image-wrapper`}>
-                            <img className={`${cb}__image`} src={things0} alt='' />
+                            <img className={`${cb}__image`} src={process.env.PUBLIC_URL + '/images/things0.jpg'} alt='' />
                         </div>
                         <div className={`${cb}__image-caption`}>
                             <p>Lambeau Field</p>
