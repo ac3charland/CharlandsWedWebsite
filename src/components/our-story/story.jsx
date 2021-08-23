@@ -1,7 +1,6 @@
 import './story.scss'
 import React from 'react'
 import Fade from 'react-reveal';
-import {story1} from '../../utils/constants'
 
 const cb = 'story'
 
@@ -20,7 +19,7 @@ export default function Story(props) {
                 </Fade>
                 <Fade>
                     <div className={`${cb}__image-wrapper`}>
-                        <img className={`${cb}__image`} src={story1} alt='Caterpillar and engagement ring resting on flower' />
+                        <img className={`${cb}__image`} src={process.env.PUBLIC_URL + '/images/story1.jpg'} alt='Caterpillar and engagement ring resting on flower' />
                     </div>
                 </Fade>
             </div>

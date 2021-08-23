@@ -1,7 +1,6 @@
 import './places-to-stay.scss'
 import React from 'react'
 import Fade from 'react-reveal/Fade'
-import {placesToStay0} from '../../utils/constants'
 
 const cb = 'places-to-stay'
 
@@ -15,7 +14,7 @@ export default function PlacesToStay(props) {
                 <Fade>
                     <div>
                         <div className={`${cb}__image-wrapper`}>
-                            <img className={`${cb}__image`} src={placesToStay0} alt='' />
+                            <img className={`${cb}__image`} src={process.env.PUBLIC_URL + '/images/placesToStay.jpg'} alt='' />
                         </div>
                         <div className={`${cb}__image-caption`}>
                             <p>Hotel Northland in downtown Green Bay</p>
